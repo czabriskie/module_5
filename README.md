@@ -1,10 +1,10 @@
 Log Files and Regular Expressions
 
-A log file is used to store the happenings on any given website. I've aquired just such a log file, and I would like some help analyzing it (Credit for this file goes to Merve Baş Seyyar, Ferhat Özgür Çatak, and Ensar Gül (https://github.com/ocatak/apache-http-logs/). The apache log file can be found in the data folder on canvas.
+A log file is used to store the happenings on any given website. I've aquired just such a log file, and I would like some help analyzing it (Credit for this file goes to Merve Baş Seyyar, Ferhat Özgür Çatak, and Ensar Gül (https://github.com/ocatak/apache-http-logs/).
 
 Use regular expressions to extract data from the log file and answer the following questions using plots in jupyter notebook. The format of the apache log file is combined log format. For more information see https://httpd.apache.org/docs/2.4/logs.html.
 
-1. What browsers are used to access this website? Are there some that are more common than others?
+1. What browsers are used to access this website? Are there some that are more common than others? (Best guesses on browsers is good enough here, some are difficult to identify)
 2. What websites/IP addresses bring this website the most traffic?
 3. Are there specific times of the year that the website recieves more traffic than other times?
 4. This log file is supposedly contains some malicious attempts to alter the site. Do you see any evidence of this? 
